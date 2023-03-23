@@ -6,13 +6,11 @@ const button = document.querySelector('.input__button');
 //функция для создания шаблона поста
 
 function makeTemplate(title, body) {
-    let template = '';
-    template = `
+    let template = `
     <div class = 'post__title'>${title}</div>
     <div class = 'post__body'>${body}</div>
 `
     post.innerHTML += template;
-
 }
 
 
